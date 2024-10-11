@@ -1,0 +1,6 @@
+c(z)∨c(q)
+c(q)∨c(s)
+c(s)∨c(l)
+¬c(z)∨¬c(s)
+¬c(q)∨¬c(l)
+(∀x)(¬c(x)∨Answer(x))

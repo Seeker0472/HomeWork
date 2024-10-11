@@ -1,0 +1,202 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\image.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\image.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGE_DIALOG DIALOGEX 0, 0, 764, 599
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "灰度图像灰度变换"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_IMAGE,"Static",SS_BITMAP,19,24,224,150
+    PUSHBUTTON      "打开图像",IDC_BUTTON1,627,24,54,18
+    PUSHBUTTON      "灰度化",IDC_BUTTON2,676,84,54,18
+    PUSHBUTTON      "密律变换",IDC_BUTTON3,676,164,54,18
+    PUSHBUTTON      "分段线性",IDC_BUTTON4,676,250,54,18
+    EDITTEXT        IDC_EDIT1,656,61,24,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "直方图均衡化",IDC_BUTTON5,676,292,54,18
+    EDITTEXT        IDC_EDIT2,721,61,24,14,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,648,63,8,11
+    EDITTEXT        IDC_EDIT3,689,61,24,14,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,682,64,8,11
+    LTEXT           "B",IDC_STATIC,714,64,8,11
+    CONTROL         "",IDC_IMAGE1,"Static",SS_BITMAP,248,28,15,14
+    EDITTEXT        IDC_EDIT4,687,145,30,12,ES_AUTOHSCROLL
+    LTEXT           "密次",IDC_STATIC,656,145,29,12
+    CONTROL         "",IDC_IMAGE2,"Static",SS_BITMAP,17,173,15,16
+    CONTROL         "",IDC_IMAGE3,"Static",SS_BITMAP,244,171,18,18
+    EDITTEXT        IDC_EDIT5,677,195,17,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,714,195,17,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,713,218,17,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,676,218,17,14,ES_AUTOHSCROLL
+    LTEXT           "a",IDC_STATIC,670,197,20,17
+    LTEXT           "b",IDC_STATIC,708,199,8,9
+    LTEXT           "c",IDC_STATIC,666,222,11,15
+    LTEXT           "d",IDC_STATIC,704,218,8,12
+    CONTROL         "",IDC_IMAGE4,"Static",SS_BITMAP,15,309,15,14
+    CONTROL         "",IDC_IMAGE5,"Static",SS_BITMAP,243,311,15,14
+    CONTROL         "",IDC_IMAGE6,"Static",SS_BITMAP,447,307,15,14
+    PUSHBUTTON      "反转变换",IDC_BUTTON6,678,111,53,19
+    CONTROL         "",IDC_IMG,"Static",SS_BITMAP,445,21,21,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "image Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "image\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2024\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "image.EXE\0"
+            VALUE "ProductName", "image 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_IMAGE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 757
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 592
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\image.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -6,16 +6,21 @@
 --------------------Configuration: image - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x804 /fo"Debug/image.res" /d "_DEBUG" /d "_AFXDLL" "C:\Develop\image\image.rc"" 
-Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/image.pdb" /debug /machine:I386 /out:"Debug/image.exe" /pdbtype:sept  .\Debug\image.obj .\Debug\imageDlg.obj .\Debug\StdAfx.obj .\Debug\image.res "
+Creating temporary file "C:\Users\seeker\AppData\Local\Temp\RSP65A1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/image.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\school\cg\image\imageDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\seeker\AppData\Local\Temp\RSP65A1.tmp" 
 <h3>Output Window</h3>
-Compiling resources...
-Linking...
+Compiling...
+Skipping... (no relevant changes detected)
+imageDlg.cpp
 
 
 
 <h3>Results</h3>
-image.exe - 0 error(s), 0 warning(s)
+imageDlg.obj - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
