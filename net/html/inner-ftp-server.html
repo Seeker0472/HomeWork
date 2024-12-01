@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP系统使用帮助</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FTP系统使用帮助</h1>
+</header>
+
+<nav>
+    <a href="#introduction">简介</a>
+    <a href="#setup">设置</a>
+    <a href="#upload-download">上传与下载</a>
+    <a href="#troubleshooting">故障排除</a>
+</nav>
+
+<section id="introduction">
+    <div class="container">
+        <h2>简介</h2>
+        <p>FTP（文件传输协议）是一种用于在网络上进行文件传输的标准协议。它允许用户上传和下载文件。</p>
+    </div>
+</section>
+
+<section id="setup">
+    <div class="container">
+        <h2>设置</h2>
+        <ol>
+            <li>下载并安装FTP客户端软件，例如FileZilla。</li>
+            <li>打开客户端，输入FTP服务器地址、用户名和密码进行连接。</li>
+            <li>连接成功后，将看到本地和远程文件目录。</li>
+        </ol>
+    </div>
+</section>
+
+<section id="upload-download">
+    <div class="container">
+        <h2>上传与下载</h2>
+        <h3>上传文件</h3>
+        <ol>
+            <li>在本地目录中选择要上传的文件。</li>
+            <li>将文件拖动到远程目录中。</li>
+            <li>等待上传完成。</li>
+        </ol>
+        <h3>下载文件</h3>
+        <ol>
+            <li>在远程目录中选择要下载的文件。</li>
+            <li>将文件拖动到本地目录中。</li>
+            <li>等待下载完成。</li>
+        </ol>
+    </div>
+</section>
+
+<section id="troubleshooting">
+    <div class="container">
+        <h2>故障排除</h2>
+        <ul>
+            <li>无法连接服务器：检查网络连接和FTP服务器地址。</li>
+            <li>上传或下载失败：检查文件权限和磁盘空间。</li>
+            <li>速度慢：尝试在网络空闲时进行传输。</li>
+        </ul>
+    </div>
+</section>
+
+</body>
+</html>

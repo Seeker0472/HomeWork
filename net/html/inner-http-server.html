@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司内部网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>公司内部管理系统</h1>
+</header>
+
+<nav>
+    <a href="#employees">员工档案</a>
+    <a href="#business-plan">业务计划</a>
+    <a href="#meeting-schedule">会议日程</a>
+</nav>
+
+<section id="employees">
+    <div class="container">
+        <h2>员工档案</h2>
+        <ul>
+            <li>姓名: 张三 - 职位: 开发工程师</li>
+            <li>姓名: 李四 - 职位: 产品经理</li>
+            <li>姓名: 王五 - 职位: 市场专员</li>
+        </ul>
+    </div>
+</section>
+
+<section id="business-plan">
+    <div class="container">
+        <h2>业务计划</h2>
+        <p>我们的目标是在未来一年内将市场份额提高至20%。</p>
+        <p>重点发展领域包括技术创新和客户服务改进。</p>
+    </div>
+</section>
+
+<section id="meeting-schedule">
+    <div class="container">
+        <h2>会议日程</h2>
+        <ul>
+            <li>2024年12月1日 - 项目启动会议</li>
+            <li>2024年12月15日 - 月度总结会议</li>
+            <li>2024年12月30日 - 年终总结会议</li>
+        </ul>
+    </div>
+</section>
+
+</body>
+</html>

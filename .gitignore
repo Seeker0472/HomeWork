@@ -4,4 +4,9 @@ out
 .metals
 Thumbs.*
 Debug
+*.zip
+*.pdf
+*.tar.gz
+.direnv
+
 

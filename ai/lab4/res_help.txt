@@ -1,0 +1,5 @@
+2024-11-05 20:02:09.143706: I tensorflow/core/framework/local_rendezvous.cc:405] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Transforming ============================================================================================================================================================================================
+
+
+

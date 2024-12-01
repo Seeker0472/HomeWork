@@ -1,0 +1,218 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\image2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\image2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGE2_DIALOG DIALOGEX 0, 0, 748, 371
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "image2"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_IMAGE,"Static",SS_BITMAP,0,0,15,14
+    PUSHBUTTON      "Open Pic",IDC_BUTTON1,563,5,71,22
+    CONTROL         "",IDC_IMAGE1,"Static",SS_BITMAP,125,0,15,14
+    EDITTEXT        IDC_EDIT1,580,48,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,623,48,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,667,48,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,579,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,624,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,668,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,580,92,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,624,92,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,667,93,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,581,117,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,623,117,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,668,117,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,581,137,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,624,137,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,668,137,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,581,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,624,158,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,668,158,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "二阶滤波器",IDC_STATIC,575,40,138,72
+    GROUPBOX        "一阶滤波器",IDC_STATIC,563,30,160,161
+    CONTROL         "梯度",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    563,204,32,10
+    CONTROL         "交叉梯度",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,624,
+                    204,48,10
+    CONTROL         "Prewitt",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,563,219,44,10
+    CONTROL         "Sobel",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,624,219,
+                    36,10
+    CONTROL         "Laplacian算子",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,583,235,68,10
+    CONTROL         "Laplacian锐化",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,
+                    583,248,68,10
+    PUSHBUTTON      "一阶滤波",IDC_BUTTON5,595,287,50,14
+    PUSHBUTTON      "二阶滤波",IDC_BUTTON6,595,307,50,14
+    PUSHBUTTON      "退出",IDC_BUTTON8,595,328,52,13
+    CONTROL         "",IDC_IMAGE2,"Static",SS_BITMAP,0,123,15,14
+    CONTROL         "",IDC_IMAGE3,"Static",SS_BITMAP,125,123,15,14
+    CONTROL         "",IDC_IMAGE4,"Static",SS_BITMAP,0,246,15,14
+    CONTROL         "",IDC_IMAGE5,"Static",SS_BITMAP,125,246,15,14
+    CONTROL         "",IDC_IMAGE6,"Static",SS_BITMAP,261,246,15,14
+    CONTROL         "",IDC_IMAGE7,"Static",SS_BITMAP,261,123,15,14
+    CONTROL         "",IDC_IMAGE8,"Static",SS_BITMAP,261,2,15,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "image2 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "image2\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2024\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "image2.EXE\0"
+            VALUE "ProductName", "image2 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_IMAGE2_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 125
+        VERTGUIDE, 261
+        VERTGUIDE, 389
+        HORZGUIDE, 123
+        HORZGUIDE, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\image2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
