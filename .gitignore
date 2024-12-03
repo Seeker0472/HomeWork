@@ -8,5 +8,7 @@ Debug
 *.pdf
 *.tar.gz
 .direnv
+.vscode
+
 
 
